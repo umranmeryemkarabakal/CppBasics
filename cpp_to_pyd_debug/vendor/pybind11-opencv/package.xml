@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pybind11_opencv</name>
+  <version>2.0.0</version>
+  <description>Support for basic OpenCV types in pybind11.</description>
+
+  <maintainer email="felix.widmaier@tue.mpg.de">Felix Widmaier</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>mpi_cmake_modules</build_depend>
+  <build_depend>pybind11_vendor</build_depend>
+
+  <depend>libopencv-dev</depend>
+  <depend>pybind11</depend>
+
+  <test_depend>ament_cmake_pytest</test_depend>
+
+  <export>
+      <build_type>ament_cmake</build_type>
+  </export>
+</package>
