@@ -7,17 +7,17 @@
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
 </p>
 
-## 🇬🇧 Overview
+## Overview
 
 C++ fundamentals (arrays, control flow, functions, pointers, writing files, pattern printing) and a small project that compiles an OpenCV-based image quality module to a Python extension with pybind11.
 
 **Quick start:** `g++ -std=c++17 array.cpp -o array && ./array`
 
-## 🇹🇷 Proje hakkında
+## Proje hakkında
 
 C++ temelleri ve pybind11 ile C++ kodunu Python modülüne dönüştüren bir OpenCV projesi.
 
-## 📚 İçerik
+## İçerik
 
 - `cpp_giris.cpp`, `control_donguler.cpp`, `array.cpp`, `functions.cpp`: temel yapı, döngüler, diziler, fonksiyonlar
 - `pointers.cpp`, `pointers_fuction.cpp`: işaretçiler
@@ -25,7 +25,7 @@ C++ temelleri ve pybind11 ile C++ kodunu Python modülüne dönüştüren bir Op
 - `ters_ucgen.cpp`, `yıildiz_matris.cpp`: desen yazdırma
 - `cpp_to_pyd_debug/`: `analyze_image_and_apply_methods` fonksiyonunu pybind11 ile Python'a açan OpenCV görüntü kalite modülü (CMake)
 
-## ⚙️ Kurulum ve çalıştırma
+## Kurulum ve çalıştırma
 
 **Temel örnekler:**
 
@@ -44,7 +44,7 @@ cmake --build build --config Release
 
 Derlenen modül Python'dan `import S04_vision_quality_controller` ile kullanılır.
 
-## 📁 Dosya yapısı
+## Dosya yapısı
 
 ```text
 CppBasics/
@@ -65,7 +65,7 @@ CppBasics/
 └── yıildiz_matris.cpp
 ```
 
-## 📝 Notlar
+## Notlar
 
 - Derleme çıktıları (`.exe`, `build/`, `.dll`) depodan çıkarıldı; kaynak koddan yeniden üretilebilir.
 - `cpp_to_pyd_debug/vendor/` altında pybind11 ve pybind11-opencv kaynakları bulunur.
