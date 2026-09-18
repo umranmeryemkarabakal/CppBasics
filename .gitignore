@@ -1,0 +1,16 @@
+# Derleme çıktıları
+*.exe
+*.o
+*.obj
+*.out
+*.dll
+*.so
+*.pyd
+build/
+tempCodeRunnerFile.*
+
+# Editör ve işletim sistemi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
